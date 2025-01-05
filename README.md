@@ -58,7 +58,7 @@ img {
 }
 ```
 
-When images are lazily loaded, at first their height are zero. When they are successfully downloaded and shown on the page, the image suddenly appear and makes what was on the page jump. This is really annoying when the image is on top of the page and you're just start reading or clicking on a button. I still encountered this on some of the pages on the web.
+When images are lazily loaded, at first their height are zero. When they are successfully downloaded and shown on the page, the images suddenly appear and makes what was on the page jump. This is really annoying when the image is on top of the page and you're just start reading or clicking on a button. I still encountered this on some of the pages on the web.
 
 To solve this jump problem, I set the `width` and `height` of **img** to the actual dimensions of the image (or you can set it to other values as long as they have the same aspect ratio to the actual image dimensions). Then, on CSS I set the `width` to be **100%** and set the `height` to **auto**. This will make the browser calculate the height of the img element using the `width` and `height` attributes as a ratio against the width of the **img** element itself (which I already set it to 100% of the parent container).
 
