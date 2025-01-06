@@ -71,7 +71,7 @@ Currently I've tried to apply the semantic HTML, but I don't know if my code is 
 
 ### Useful resources
 
-- [Cumulative Layout Shift](https://web.dev/learn/images/performance-issues?authuser=1#cumulative_layout_shift) - This is the learning resource that I used to prevent the jump problem by properly setup the **img** element height.
+- [Cumulative Layout Shift](https://web.dev/learn/images/performance-issues?authuser=1#cumulative_layout_shift) - This is the learning resource that I used to prevent the jump problem by properly setup the **img** element.
 
 ## Author
 
