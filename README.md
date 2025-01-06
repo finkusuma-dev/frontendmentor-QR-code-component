@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
       - [Setup The Image Container](#setup-the-image-container)
-      - [Drop Shadow](#drop-shadow)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -69,21 +68,9 @@ To solve this jump problem, I set the `width` and `height` of **img** to the act
 
 This way, the image container will have the correct height of the image that is still being downloaded and the ugly jump won't happen.
 
-#### Drop Shadow
-
-I wanted to put shadow on the card just like on the project preview image, but looked on the figma style I couldn't find the detailed values of the drop shadow being used. So I just tried with different values and found this similar with the design:
-
-```css
-.card {
-  box-shadow: 0px 15px 20px 0px hsl(0, 0%, 0%, 0.05);
-}
-```
-
 ### Continued development
 
 Currently I've tried to apply the semantic HTML, but I don't know if my code is correct or not. If anyone has suggestions of how to improve it, please contact me via Twitter, or you can also open a GitHub issue.
-
-And please if anyone know the exact value of the drop shadow used in figma, I need it for the future project. Thanks in advance.
 
 ### Useful resources
 
