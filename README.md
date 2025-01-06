@@ -16,6 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
+  - [Acknowledgement](#acknowledgement)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -81,3 +82,7 @@ Currently I've tried to apply the semantic HTML, but I don't know if my code is 
 - Github - [Arifin Kusuma](https://github.com/finkusuma-dev)
 - Frontend Mentor - [@finkusuma-dev](https://www.frontendmentor.io/profile/finkusuma-dev)
 - Twitter - [@finkusuma_dev](https://www.twitter.com/finkusuma_dev)
+
+## Acknowledgements
+
+- [@QuangHPV](https://www.frontendmentor.io/profile/QuangHPV) to encourage using `figure` and `footer` elements for adding semantics.
