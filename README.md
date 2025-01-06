@@ -59,7 +59,7 @@ img {
 }
 ```
 
-When images are lazily loaded, at first the **img** element height are zero. Then when the images are successfully downloaded and shown on the page, the images suddenly appear and makes what was on the page jump. This is really annoying and can happen when the image is on top of the page and you're just start reading or clicking on a button. I still encountered this on some of the pages on the web.
+When images are lazily loaded, at first the container (**img** element) height is zero. Then when the images are successfully downloaded and shown on the page, the images suddenly appear and makes what was on the page jump. This can happen when the image is on top of the page, and really annoying when you're just start reading or clicking on a button. I still encountered this on some of the pages on the web.
 
 To solve this jump problem, I set the `width` and `height` of **img** to the actual dimensions of the image (or you can set it to other values as long as they have the same aspect ratio to the actual image dimensions). Then, on CSS I set the `width` to be **100%** and set the `height` to **auto**. This will make the browser calculate the height of the img element using the `width` and `height` attributes as a ratio against the width of the **img** element itself (which I already set it to 100% of the parent container).
 
@@ -71,7 +71,7 @@ Currently I've tried to apply the semantic HTML, but I don't know if my code is 
 
 ### Useful resources
 
-- [Cumulative Layout Shift](https://web.dev/learn/images/performance-issues?authuser=1#cumulative_layout_shift) - This is the learning resource that I used to prevent jump problem by properly setup the image height.
+- [Cumulative Layout Shift](https://web.dev/learn/images/performance-issues?authuser=1#cumulative_layout_shift) - This is the learning resource that I used to prevent the jump problem by properly setup the **img** element height.
 
 ## Author
 
